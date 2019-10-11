@@ -43,15 +43,37 @@
       handleReset2() {
         this.$refs.ruleForm2.resetFields();
       },
+      //登录
       handleSubmit2(ev) {
         var _this = this;
+        //登录前的验证
         this.$refs.ruleForm2.validate((valid) => {
           if (valid) {
             //_this.$router.replace('/table');
             this.logining = true;
             //NProgress.start();
             var loginParams = { username: this.ruleForm2.account, password: this.ruleForm2.checkPass };
-            requestLogin(loginParams).then(data => {
+
+            //发送登录请求
+            this.$http.post("/plat/login",loginParams)
+                    .then(res=>{
+
+                      this.logining = false;
+
+                      let { message, success, restObj } = res.data;
+                      if (!success) {
+                        this.$message({
+                          message: message,
+                          type: 'error'
+                        });
+                      } else {
+                        //sessionStorage前端的客户端浏览器的session   H5的新技术
+                        sessionStorage.setItem('user', JSON.stringify(restObj));
+                        this.$router.push({ path: '/mainPage' });
+                      }
+                    })
+
+            /*requestLogin(loginParams).then(data => {
               this.logining = false;
               //NProgress.done();
               let { msg, code, user } = data;
@@ -64,7 +86,7 @@
                 sessionStorage.setItem('user', JSON.stringify(user));
                 this.$router.push({ path: '/mainPage' });
               }
-            });
+            });*/
           } else {
             console.log('error submit!!');
             return false;
