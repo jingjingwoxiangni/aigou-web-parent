@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39183362-d832-4737-a580-4f7129607807" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aigou-admin-web/src/views/product/ProductType.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aigou-admin-web/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/aigou-admin-web/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aigou-admin-web/src/mock/data/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/aigou-admin-web/src/mock/data/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aigou-admin-web/src/mock/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/aigou-admin-web/src/mock/mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aigou-admin-web/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aigou-admin-web/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aigou-admin-web/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/aigou-admin-web/src/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aigou-admin-web/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aigou-admin-web/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aigou-admin-web/src/views/product/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aigou-admin-web/src/views/product/Brand.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +33,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1S2NwDmaE8U5ZUq4PvRJ9CFDyb4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aigou-admin-web/src/views/product" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ymsd\aigou-web-parent\aigou-admin-web\src\views\product" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,8 +74,19 @@
       <workItem from="1570758432164" duration="3275000" />
       <workItem from="1570763604068" duration="8082000" />
       <workItem from="1570780368510" duration="594000" />
-      <workItem from="1570786138827" duration="3202000" />
+      <workItem from="1570786138827" duration="3303000" />
+      <workItem from="1570799002120" duration="278000" />
+      <workItem from="1570806990511" duration="7000" />
+      <workItem from="1570860830524" duration="7648000" />
     </task>
+    <task id="LOCAL-00001" summary="登录">
+      <created>1570789745848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570789745848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录" />
   </component>
 </project>
