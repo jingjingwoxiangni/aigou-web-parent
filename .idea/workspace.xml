@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39183362-d832-4737-a580-4f7129607807" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ecommerce/01_数组的笛卡尔积的计算.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aigou-admin-web/src/views/product/Product.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aigou-admin-web/src/views/product/Product.vue" afterDir="false" />
     </list>
@@ -93,7 +92,9 @@
       <workItem from="1571276515677" duration="11960000" />
       <workItem from="1571314836003" duration="341000" />
       <workItem from="1571317416383" duration="3596000" />
-      <workItem from="1571362754318" duration="16599000" />
+      <workItem from="1571362754318" duration="16677000" />
+      <workItem from="1571457968173" duration="6268000" />
+      <workItem from="1571533130957" duration="7071000" />
     </task>
     <task id="LOCAL-00001" summary="登录">
       <created>1570789745848</created>
@@ -137,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571308208163</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="显示属性管理和sku属性管理">
+      <created>1571394999852</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571394999853</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +173,7 @@
     <MESSAGE value="前台" />
     <MESSAGE value="logo上传" />
     <MESSAGE value="商品管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品管理" />
+    <MESSAGE value="显示属性管理和sku属性管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="显示属性管理和sku属性管理" />
   </component>
 </project>
