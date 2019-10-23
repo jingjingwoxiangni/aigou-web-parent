@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39183362-d832-4737-a580-4f7129607807" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ecommerce/js/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/js/vue/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/js/vue/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/js/vue/axios.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aigou-admin-web/src/views/product/Product.vue" beforeDir="false" afterPath="$PROJECT_DIR$/aigou-admin-web/src/views/product/Product.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +101,9 @@
       <workItem from="1571559422216" duration="104000" />
       <workItem from="1571562433315" duration="3914000" />
       <workItem from="1571619397362" duration="1420000" />
-      <workItem from="1571628728500" duration="4999000" />
+      <workItem from="1571628728500" duration="6839000" />
+      <workItem from="1571659960768" duration="2926000" />
+      <workItem from="1571794728895" duration="8146000" />
     </task>
     <task id="LOCAL-00001" summary="登录">
       <created>1570789745848</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571559492076</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="上下架">
+      <created>1571644150240</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571644150240</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +198,7 @@
     <MESSAGE value="商品管理" />
     <MESSAGE value="显示属性管理和sku属性管理" />
     <MESSAGE value="sku" />
-    <option name="LAST_COMMIT_MESSAGE" value="sku" />
+    <MESSAGE value="上下架" />
+    <option name="LAST_COMMIT_MESSAGE" value="上下架" />
   </component>
 </project>
